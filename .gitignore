@@ -1,4 +1,5 @@
 oauth/static/
+oauth/oauth/local_settings.py
 
 env
 *.sqlite3
