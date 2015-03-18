@@ -1,3 +1,5 @@
+oauth/static/
+
 env
 *.sqlite3
 
