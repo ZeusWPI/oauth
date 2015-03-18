@@ -1,5 +1,7 @@
 import os
 
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
 SECRET_KEY = 'UNSAFE_DEFAULT'
 
 STATIC_URL = '/static/'
