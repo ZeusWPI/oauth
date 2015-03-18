@@ -1,3 +1,5 @@
+deploy.sh
+
 oauth/static/
 oauth/oauth/local_settings.py
 
