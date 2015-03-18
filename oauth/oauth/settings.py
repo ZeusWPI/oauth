@@ -105,7 +105,7 @@ USE_TZ = True
 STATIC_URL = '/oauth/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "oauth/static/")
 FORCE_SCRIPT_NAME = '/oauth'
-LOGIN_URL = '/oauth'
+LOGIN_URL = '/oauth/accounts/login/'
 
 LOGGING = {
     'version': 1,
