@@ -10,5 +10,5 @@ want to integrate with the Zeus OAuth services.
 ## Endpoints
 Use the following endpoints to connect your OAuth service to:
 
-* Authorization endpoint: http://kelder.zeus.ugent.be/oauth/oauth2/authorize
-* Token endpoint: http://kelder.zeus.ugent.be/oauth/oauth2/token
+* Authorization endpoint: http://kelder.zeus.ugent.be/oauth/oauth2/authorize/
+* Token endpoint: http://kelder.zeus.ugent.be/oauth/oauth2/token/
