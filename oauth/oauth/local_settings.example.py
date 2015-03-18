@@ -1,3 +1,5 @@
+import os
+
 SECRET_KEY = 'UNSAFE_DEFAULT'
 
 STATIC_URL = '/static/'
