@@ -1,4 +1,6 @@
+from django.conf import settings
 from django.conf.urls import patterns, include, url
+from django.conf.urls.static import static
 from django.contrib import admin
 
 urlpatterns = patterns('',
@@ -16,4 +18,4 @@ urlpatterns = patterns('',
 
     # OAuth
     url(r'^oauth2/', include('oauth2_provider.urls', namespace='oauth2_provider')),
-)
+) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
