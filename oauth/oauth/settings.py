@@ -118,7 +118,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
-LOG_FILE = '/var/log/oauth/oauth_django.log'
+
+if DEBUG:
+    LOG_FILE = './oauth_django.log'
+else:
+    LOG_FILE = '/var/log/oauth/oauth_django.log'
 
 LOGGING = {
     'version': 1,
