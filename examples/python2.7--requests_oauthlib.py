@@ -7,10 +7,10 @@ client_id = 'client_id'
 client_secret = 'client_secret'
 redirect_uri = 'http://redirect_uri/'
 
-authorize_url = 'https://kelder.zeus.ugent.be/oauth/oauth2/authorize/'
-access_token_url = 'https://kelder.zeus.ugent.be/oauth/oauth2/token/'
+authorize_url = 'https://adams.ugent.be/oauth/oauth2/authorize/'
+access_token_url = 'https://adams.ugent.be/oauth/oauth2/token/'
 
-account_url = 'https://kelder.zeus.ugent.be/oauth/api/current_user/'
+account_url = 'https://adams.ugent.be/oauth/api/current_user/'
 
 oauth = OAuth2Session(client_id, redirect_uri=redirect_uri)
 authorization_url, state = oauth.authorization_url(authorize_url)
